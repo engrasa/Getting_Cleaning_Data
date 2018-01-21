@@ -1,6 +1,6 @@
 
 # Getting and Cleaning Data Course Project
-Author: Maria Joanna I. Juachon
+Author: **Maria Joanna I. Juachon**
 
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data for analysis. 
 
@@ -8,7 +8,7 @@ The purpose of this project is to demonstrate ability to collect, work with, and
 
 
 | NAME  | LINK | DESCRIPTION | 
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | README  |  [README.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/README.md)  | Provides details of the files and script  |
 | CODE BOOK  |  [CodeBook.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/CodeBook.md)  | Describes the variables, the data, and any transformations performed.  |
 | R SOURCE CODE  |  [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/run_analysis.R)  |  R script for performing the data acquisition and preparation  |
