@@ -10,7 +10,7 @@ Here are the data for the project: [Human Activity Recognition Using Smartphones
 
 
 ## Tidy Data Information
-This repository includes a "tidy" data set of averages of means and standard deviations for various accelerometer and gyroscopic measurements of several common human activities. 
+This repository includes a "tidy" data set of averages of means and standard deviations for various measurements of several common human activities. 
 
 ### Identifiers
 Human Activity Recognition database built from the recordings of 30 volunteers (within an age bracket of 19-48 years) performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
