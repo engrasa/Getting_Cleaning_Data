@@ -25,4 +25,9 @@ Source file is ```run_analysis.R```. This R script does the following things:
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+##Review Criteria
 
+---
+Name: README
+Link: (README.md)[Getting_Cleaning_Data/README.md]
+---
