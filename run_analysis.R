@@ -45,18 +45,22 @@ colnames(subject_train) <- "SubjectID"
 colnames(x_test) <- feature_labels[,2] 
 colnames(y_test) <- "Activity"
 colnames(subject_test) <- "SubjectID"
-
+ 
 ##MERGE DATA
 train <- cbind(subject_train, y_train, x_train)
 test <- cbind(subject_test, y_test, x_test)
 data_comp <- rbind(train, test)
-
+#You may check the data if all columns have variables names
+#You may run: View(head(data_comp,n=5)) to show first 5 rows or View(colnames(data_comp)) to see complete list of variable names
 
 ##EXTRACT MEAN and STD VARIABLES
 mean_std<-feature_labels$featureName[grep("(mean|std)\\(\\)", feature_labels$featureName)]
 measurement_labels<-c("SubjectID", "Activity",as.character(mean_std))
 Finaldata<-subset(data_comp,select=measurement_labels)
 Finaldata$Activity<-factor(Finaldata$Activity,labels=activity_labels[,2])
+#You may check the data if all columns have variables names with mean() or std()
+#You may run: str(Finaldata) or View(head(Finaldata,n=5)) to show first 5 rows or View(colnames(Finaldata)) to see list of selected variable names
+
 
 ##LABEL DATA with DESCRIPTIVE NAMES
 names(Finaldata)<-gsub("[-()]", "", names(Finaldata))
@@ -68,7 +72,8 @@ names(Finaldata)<-gsub("Mag", "Magnitude", names(Finaldata))
 names(Finaldata)<-gsub("BodyBody", "Body", names(Finaldata))
 names(Finaldata)<-gsub("^t", "Time", names(Finaldata))
 names(Finaldata)<-gsub("^f", "Frequency", names(Finaldata))
-
+#You may check the data if columns names have changed
+#You may run: str(Finaldata) or View(head(Finaldata,n=5)) to show first 5 rows or View(colnames(Finaldata)) to see list of variable names
 
 ##CREATE TIDY DATASET
 Tidydata<-aggregate(. ~SubjectID + Activity, Finaldata, mean)
