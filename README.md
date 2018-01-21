@@ -37,5 +37,5 @@ This R script does the following things:
     + For easy reference, change the name shortcuts and omit other unnecessary characters (e.g. ```-()```).
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-    + Create and save ```tidydata.txt```.
+    + Create data frame ```Tidydata``` and save ```tidydata.txt```.
 
