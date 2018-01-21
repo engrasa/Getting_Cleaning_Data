@@ -1,8 +1,5 @@
-library(plyr)
-library(dplyr)
-library(tidyr)
-library(knitr)
-library(data.table)
+##LOAD USEFUL R PACKAGES
+library(plyr);library(dplyr);library(tidyr);library(knitr);library(data.table)
 
 ##CREATE A DIRECTORY TO STORE THE FILES FOR MODULE 3 PROJECT
 if(!file.exists("./Module 3 Project"))
