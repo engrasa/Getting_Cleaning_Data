@@ -30,7 +30,7 @@ Source file is ```run_analysis.R```. This R script does the following things:
 
 | NAME  | LINK |
 | ------------- | ------------- |
-| README  | (README.md)[mjchn/Getting_Cleaning_Data/README.md]  |
-| CODE BOOK  | (CodeBook.md)[mjchn/Getting_Cleaning_Data/CodeBook.md]  |
-| R SOURCE CODE  | (run_analysis.R)[mjchn/Getting_Cleaning_Data/run_analysis.R]  |
-| TIDY DATASET  | (tidydata.txt)[mjchn/Getting_Cleaning_Data/tidydata.txt]  |
+| README  | [README.md](https://github.com/mjchn/Getting_Cleaning_Data/README.md)  |
+| CODE BOOK  | [CodeBook.md](https://github.com/mjchn/Getting_Cleaning_Data/CodeBook.md)  |
+| R SOURCE CODE  | [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/run_analysis.R)  |
+| TIDY DATASET  | [tidydata.txt](https://github.com/mjchn/Getting_Cleaning_Data/tidydata.txt)  |
