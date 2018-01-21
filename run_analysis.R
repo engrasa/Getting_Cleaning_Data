@@ -4,8 +4,6 @@ library(tidyr)
 library(knitr)
 library(data.table)
 
-###STEP 1: DATA ACQUISITION - DOWNLOAD, UNZIP and LOAD THE FILES
-
 ##CREATE A DIRECTORY TO STORE THE FILES FOR MODULE 3 PROJECT
 if(!file.exists("./Module 3 Project"))
   {dir.create("./Module 3 Project")}
@@ -37,8 +35,6 @@ subject_test  <- read.table(file.path(path, "test" , "subject_test.txt"),header 
 ##LOAD LABEL DATASETS
 feature_labels <- read.table(file.path(path,"features.txt"),header = FALSE)
 activity_labels <- read.table(file.path(path,"activity_labels.txt"),header = FALSE)
-
-### STEP 2: DATA PREPARATION - CLEAN THE DATA 
 
 ##NAME VARIABLES
 colnames(feature_labels) <- c('Index','featureName')
