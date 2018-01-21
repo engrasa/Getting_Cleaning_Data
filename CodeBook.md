@@ -1,6 +1,6 @@
 
 # Getting and Cleaning Data Course Project
-# *Code Book*
+## Code Book
 
 
 ## Source
@@ -15,14 +15,14 @@ This repository includes a "tidy" data set of averages of means and standard dev
 ### Identifiers
 Human Activity Recognition database built from the recordings of 30 volunteers (within an age bracket of 19-48 years) performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-* ```SubjectID``` --  An identifier of the subject who carried out the experiment. Its range is from 1 to 30.
-* ```Activity``` --  The activity type performed when the corresponding measurements were taken. Each person performed six activities:
-    + WALKING -- Subject was walking during the experiment
-    + WALKING_UPSTAIRS -- Subject was walking up a staircase during the experiment
-    + WALKING_DOWNSTAIRS -- Subject was walking down a staircase during the experiment
-    + SITTING -- Subject was sitting during the experiment
-    + STANDING -- Subject was standing during the experiment
-    + LAYING -- Subject was laying down during the experiment
+* ```SubjectID``` -  An identifier of the subject who carried out the experiment. Its range is from 1 to 30.
+* ```Activity``` -  The activity type performed when the corresponding measurements were taken. Each person performed six activities:
+    + WALKING - Subject was walking during the experiment
+    + WALKING_UPSTAIRS - Subject was walking up a staircase during the experiment
+    + WALKING_DOWNSTAIRS - Subject was walking down a staircase during the experiment
+    + SITTING - Subject was sitting during the experiment
+    + STANDING - Subject was standing during the experiment
+    + LAYING - Subject was laying down during the experiment
 
 ### Measurements
 Using the embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. The following are the specific mean and standard deviation measurement variables in the tidy data:
