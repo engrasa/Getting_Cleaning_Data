@@ -11,11 +11,15 @@ The purpose of this project is to demonstrate ability to collect, work with, and
 | ------------- | ------------- | ------------- |
 | README  |  [README.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/README.md)  | Provides details of the files and script  |
 | CODE BOOK  |  [CodeBook.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/CodeBook.md)  | Describes the variables, the data, and any transformations performed.  |
-| R SOURCE CODE  |  [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/run_analysis.R)  |  R script for performing the data acquisition and preparation  |
-| TIDY DATASET  |  [tidydata.txt](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/tidydata.txt)  | README  | Clean data set  | 
+| R SOURCE CODE  |  [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/run_analysis.R)  |  Performs acquisition and preparation of data  |
+| TIDY DATASET  |  [tidydata.txt](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/tidydata.txt)  | Output - Clean data set  |  
 
-
-Source file is ```run_analysis.R```. This R script does the following things:
+Source file is ```run_analysis.R```.  Download and execute it by typing:
+```
+source("run_analysis.R")
+run_analysis.R()
+```
+This R script does the following things:
 
 1. Merges the training and the test sets to create one data set.
     + Download and unzip the file.
