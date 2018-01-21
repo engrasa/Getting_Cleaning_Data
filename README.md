@@ -32,6 +32,6 @@ For more information, please see table below:
 | NAME  | LINK |
 | ------------- | ------------- |
 | README  |  [README.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/README.md)  |
-| CODE BOOK  |  [CodeBook.md](Getting_Cleaning_Data/CodeBook.md)  |
-| R SOURCE CODE  |  [run_analysis.R](Getting_Cleaning_Data/run_analysis.R)  |
-| TIDY DATASET  |  [tidydata.txt](Getting_Cleaning_Data/tidydata.txt)  |
+| CODE BOOK  |  [CodeBook.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/CodeBook.md)  |
+| R SOURCE CODE  |  [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/run_analysis.R)  |
+| TIDY DATASET  |  [tidydata.txt](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/tidydata.txt)  |
