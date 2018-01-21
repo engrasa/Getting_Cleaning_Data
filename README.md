@@ -1,9 +1,18 @@
 
 # Getting and Cleaning Data Course Project
-## README.md
-
+Author: Maria Joanna I. Juachon
 
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data for analysis. 
+
+## List of Files
+
+
+| NAME  | LINK | DESCRIPTION | 
+| ------------- | ------------- |
+| README  |  [README.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/README.md)  | Provides details of the files and script  |
+| CODE BOOK  |  [CodeBook.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/CodeBook.md)  | Describes the variables, the data, and any transformations performed.  |
+| R SOURCE CODE  |  [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/run_analysis.R)  |  R script for performing the data acquisition and preparation  |
+| TIDY DATASET  |  [tidydata.txt](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/tidydata.txt)  | README  | Clean data set  | 
 
 
 Source file is ```run_analysis.R```. This R script does the following things:
@@ -26,12 +35,3 @@ Source file is ```run_analysis.R```. This R script does the following things:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     + Create and save ```tidydata.txt```.
 
-For more information, please see table below:
-
-
-| NAME  | LINK |
-| ------------- | ------------- |
-| README  |  [README.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/README.md)  |
-| CODE BOOK  |  [CodeBook.md](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/CodeBook.md)  |
-| R SOURCE CODE  |  [run_analysis.R](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/run_analysis.R)  |
-| TIDY DATASET  |  [tidydata.txt](https://github.com/mjchn/Getting_Cleaning_Data/blob/master/tidydata.txt)  |
